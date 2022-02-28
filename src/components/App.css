@@ -1,0 +1,83 @@
+
+.App {
+  box-sizing: border-box;
+  margin: 0;
+  background: #f0f2f5;
+  height: 100vh;
+  overflow-y: auto;
+  font-family: 'Nova Round', 'Open Sans', 'Sans Serif';
+}
+
+.App-logo {
+  height: 6vmin;
+  pointer-events: none;
+}
+
+._icon{
+  transition: all 2s ease-in-out;
+}
+
+.reme-logo{
+  height: 30px;
+  width: 30px;
+}
+
+.back-arrow{
+  width: 50px;
+  height: 50px;
+}
+
+.control-height {
+  overflow: hidden;
+  min-height: 100% !important;
+}
+
+.link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.home-icons{
+  min-width: 100px;
+}
+
+.link-button:hover,
+.link-button:focus {
+  text-decoration: none;
+}
+
+.app-bar-title {
+  flex-grow: 1;
+}
+
+.main-container {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 64px);
+}
+
+.todo-items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
