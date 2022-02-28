@@ -52,7 +52,7 @@ export const WritingModule  = ({ inputType, manageTitle, manageContent, item }) 
             manageTitle(item.title);
             defaultItem.current.value = item.mode;
         }
-    }, [makeReplacements, mode, item, added]);
+    }, [makeReplacements, mode, item, added, defaultItem, inputType, manageTitle]);
 
     const modeChange = (e) => {
         const targetValue = e.target.value;

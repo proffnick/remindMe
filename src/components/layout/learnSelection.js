@@ -33,7 +33,7 @@ export const LearnSelection = ({ upDateSelection, addty, addto, item }) => {
             upDateSelection('TOPIC', item.topic);
          }
 
-    }, [types, topics, item]);
+    }, [types, topics, item, updated, upDateSelection]);
 
     const toggleAddresource = ( what ) => {
         let icon;

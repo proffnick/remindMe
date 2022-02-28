@@ -17,7 +17,7 @@ export const WithTextEditor = ( { manageContent, item } ) => {
             addContentTo(item.content, id);
             manageContent(item.content, true);
         }
-    }, [item, manageContent, addContentTo, added]);
+    }, [item, manageContent, added, id]);
 
     return(
         <>
